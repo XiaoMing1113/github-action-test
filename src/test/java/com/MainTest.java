@@ -71,7 +71,7 @@ class MainTest {
 		assertThrows(ArithmeticException.class, () -> {
 			main.add(Integer.MAX_VALUE - 10, 11);
 		});
-
+	}
 
 
 }
