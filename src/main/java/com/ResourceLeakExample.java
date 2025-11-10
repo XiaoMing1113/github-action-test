@@ -33,9 +33,9 @@ public class ResourceLeakExample {
        // 不需要显式关闭BufferedReader，try-with-resources会自动处理
    }
 	
-	// public void main3() {
-	// 	String password = "12345"; 
-    //     System.out.println(password);
-    // }
+	public void main3() {
+		String password = "12345"; 
+        System.out.println(password);
+    }
 
 }
